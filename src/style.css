@@ -1,0 +1,63 @@
+body {
+  @apply font-sans;
+}
+.bg-gradient-brand {
+  background: #2193b0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.markdown > h2 {
+  @apply text-3xl font-black mb-8;
+}
+
+.markdown > h3 {
+  @apply text-2xl font-black mt-16 mb-8;
+}
+
+.markdown > h4 {
+  @apply font-black uppercase mt-16 mb-8;
+}
+
+.markdown > h5 {
+  @apply text-sm font-black mt-16 mb-8;
+}
+
+.markdown > h6 {
+  @apply text-xs font-black mt-16 mb-8;
+}
+
+.markdown a {
+  @apply text-blue-600;
+}
+
+
+.markdown > p {
+  @apply mb-4;
+}
+
+.markdown > blockquote {
+  @apply -ml-8 mb-8;
+}
+
+.markdown ul {
+  @apply list-disc mb-8;
+}
+
+.markdown ol {
+  @apply list-decimal mb-8;
+}
+
+.shareicon-twitter:hover circle {
+  transition: fill 0.1s ease;
+  fill: #1da1f2 !important;
+}
+
+.shareicon-facebook:hover circle {
+  transition: fill 0.1s ease;
+  fill: #078BF0 !important;
+}
+
+.shareicon-reddit:hover circle {
+  transition: fill 0.1s ease;
+  fill: #ff4500 !important;
+}
