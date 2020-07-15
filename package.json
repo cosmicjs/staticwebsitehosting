@@ -1,11 +1,11 @@
 {
-  "name": "staticwebsitehosting.org",
+  "name": "staticwebsitehosting",
   "private": true,
-  "description": "staticwebsitehosting.org, a list of static website hosting providers for Jamstack sites.",
+  "description": "staticwebsitehosting, a list of static website hosting providers for Jamstack sites.",
   "version": "1.0.0",
   "author": "@cosmicjs",
   "bugs": {
-    "url": "https://github.com/cosmicjs/staticwebsitehosting.org/issues"
+    "url": "https://github.com/cosmicjs/staticwebsitehosting/issues"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.29",
@@ -44,7 +44,7 @@
     "prettier": "2.0.5",
     "tailwindcss": "^1.4.6"
   },
-  "homepage": "https://github.com/cosmicjs/staticwebsitehosting.org#readme",
+  "homepage": "https://github.com/cosmicjs/staticwebsitehosting#readme",
   "keywords": [
     "static website hosting",
     "gatsby",
@@ -54,7 +54,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cosmicjs/staticwebsitehosting.org"
+    "url": "https://github.com/cosmicjs/staticwebsitehosting"
   },
   "scripts": {
     "build": "gatsby build",

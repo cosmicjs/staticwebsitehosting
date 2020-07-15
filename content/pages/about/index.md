@@ -4,7 +4,7 @@ title: About Static Website Hosting
 
 ## About Static Website Hosting
 
-Static Website Hosting is a leaderboard of the top static website hosting providers. It's run by [Cosmic](https://www.cosmic.com), a headless CMS for static websites and apps, as a resource for those looking for options for the best static website hosts. The site itself is built with [Gatsby](https://www.gatsbyjs.org/), and is built and hosted on [Netlify](https://www.netlify.com/). You can check out the source on [GitHub](https://github.com/cosmicjs/staticwebsitehosting.org) and contributions are [more than welcome](/contribute)!
+Static Website Hosting is a leaderboard of the top static website hosting providers. It's run by [Cosmic](https://www.cosmic.com), a headless CMS for static websites and apps, as a resource for those looking for options for the best static website hosts. The site itself is built with [Gatsby](https://www.gatsbyjs.org/), and is built and hosted on [Netlify](https://www.netlify.com/). You can check out the source on [GitHub](https://github.com/cosmicjs/staticwebsitehosting) and contributions are [more than welcome](/contribute)!
 
 ### Static Website Hosting Providers
 

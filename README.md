@@ -1,4 +1,4 @@
-# staticwebsitehosting.org
+# staticwebsitehosting
 
 [staticwebsitehosting.org](http://staticwebsitehosting.org), a leaderboard of top open-source static site generators.
 
