@@ -14,7 +14,7 @@ const Layout = ({ title, children }) => {
               Static Website Hosting
             </Link>
           </h1>
-          <h2 className="text-xl font-hairline">
+          <h2 className="text-xl font-thin">
             A List of Static Website Hosts for Jamstack Sites
           </h2>
           <ShareButtons className="mt-12 inline-flex" />
