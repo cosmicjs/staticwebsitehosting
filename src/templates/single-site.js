@@ -35,7 +35,7 @@ const BlogPostTemplate = ({ data, location }) => {
             <span className="text-black">Home Page</span>
           </a>
           <a
-            href={twitter}
+            href={`https://twitter.com/${twitter}`}
             target="_blank"
             rel="noreferrer"
             className="shadow-none mr-4 hover:text-blue-600"
