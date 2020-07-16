@@ -1,13 +1,12 @@
 # staticwebsitehosting
 
-[staticwebsitehosting.org](http://staticwebsitehosting.org), a leaderboard of top open-source static site generators.
+[staticwebsitehosting.org](http://staticwebsitehosting.org), a leaderboard of top static website hosting providers for Jamstack sites.
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/388637c1-8040-4b2d-84b4-1cfa38cd62bb/deploy-status)](https://app.netlify.com/sites/staticwebsitehosting/deploys)
 
 ## Contributing
 
-Missing a static site generator here? Just fork the repo and add your generator
-as a `index.md` in the `content/sites/<name>/` folder.
+Missing a static website hosting provider here? Just fork the repo and add the provider with an `index.md` file in the `content/sites/<name>/` folder.
 
 Make sure to follow the following rules:
 
