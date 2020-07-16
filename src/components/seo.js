@@ -43,7 +43,7 @@ const SEO = ({ description, lang, meta, title }) => {
         },
         {
           property: `og:title`,
-          content: title,
+          content: `${title ? title + '| ' : ''}${site.siteMetadata.title}`,
         },
         {
           property: `og:description`,
@@ -54,16 +54,20 @@ const SEO = ({ description, lang, meta, title }) => {
           content: `website`,
         },
         {
+          property: `og:image`,
+          content: `https://cdn.cosmicjs.com/199f4880-c7a2-11ea-b44f-f5c7da208e23-staticwebsitehosting.png`,
+        },
+        {
           name: `twitter:card`,
           content: `summary`,
         },
         {
           name: `twitter:creator`,
-          content: "Cosmic",
+          content: "@cosmicjs",
         },
         {
           name: `twitter:title`,
-          content: title,
+          content: `${title ? title + '| ' : ''}${site.siteMetadata.title}`,
         },
         {
           name: `twitter:description`,
