@@ -22,37 +22,38 @@ const BlogIndex = ({ data, location }) => {
           const hasAutoDeployment = node.frontmatter.autodeployment || false
           const cosmicAppLink = node.frontmatter.cosmicapplink || false
           return (
-            <Link to={node.fields.slug} className="flex shadow-none">
               <article
                 className="overflow-hidden rounded shadow-lg flex flex-col bg-white"
                 key={node.fields.slug}
               >
-                <div className="px-6 py-6">
-                  <header>
-                    <h3 className="font-bold text-2xl">
-                      {title}
-                    </h3>
-                  </header>
-                  <div className="mt-3">
-                    {hasFreePlan && (
-                      <span className="inline-block bg-green-300 rounded-full px-3 py-1 text-xs font-medium text-white mr-2 mb-2">
-                        free plan
-                      </span>
-                    )}
-                    {hasAutoDeployment && (
-                      <span className="inline-block bg-blue-400 rounded-full px-3 py-1 text-xs font-medium text-white mr-2 mb-2">
-                        auto deployment
-                      </span>
-                    )}
+                <Link to={node.fields.slug} className="flex-1 shadow-none">
+                  <div className="px-6 py-6">
+                    <header>
+                      <h3 className="font-bold text-2xl">
+                          {title}
+                      </h3>
+                    </header>
+                    <div className="mt-3">
+                      {hasFreePlan && (
+                        <span className="inline-block bg-green-300 rounded-full px-3 py-1 text-xs font-medium text-white mr-2 mb-2">
+                          free plan
+                        </span>
+                      )}
+                      {hasAutoDeployment && (
+                        <span className="inline-block bg-blue-400 rounded-full px-3 py-1 text-xs font-medium text-white mr-2 mb-2">
+                          auto deployment
+                        </span>
+                      )}
+                    </div>
+                    <section className="mt-4">
+                      <p
+                        dangerouslySetInnerHTML={{
+                          __html: node.frontmatter.description || node.excerpt,
+                        }}
+                      />
+                    </section>
                   </div>
-                  <section className="mt-4">
-                    <p
-                      dangerouslySetInnerHTML={{
-                        __html: node.frontmatter.description || node.excerpt,
-                      }}
-                    />
-                  </section>
-                </div>
+                </Link>
                 {cosmicAppLink && (
                   <a
                     className="px-6 py-3 bg-blue-500 text-white shadow-none flex items-center justify-center hover:bg-blue-600"
@@ -70,7 +71,6 @@ const BlogIndex = ({ data, location }) => {
                   </a>
                 )}
               </article>
-            </Link>
           )
         })}
       </section>
