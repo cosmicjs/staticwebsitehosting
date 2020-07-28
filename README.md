@@ -1,4 +1,4 @@
-# staticwebsitehosting
+# Static Website Hosting
 
 [staticwebsitehosting.org](http://staticwebsitehosting.org), a leaderboard of top static website hosting providers for Jamstack sites.
 
