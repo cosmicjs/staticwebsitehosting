@@ -34,15 +34,18 @@ const BlogPostTemplate = ({ data, location }) => {
             <FontAwesomeIcon icon={faHome} className="mr-1" />
             <span className="text-black">Home Page</span>
           </a>
-          <a
-            href={`https://twitter.com/${twitter}`}
-            target="_blank"
-            rel="noreferrer"
-            className="shadow-none mr-4 hover:text-blue-600"
-          >
-            <FontAwesomeIcon icon={faTwitter} className="mr-1" />
-            <span className="text-black">Twitter</span>
-          </a>
+          { 
+            twitter &&
+            <a
+              href={`https://twitter.com/${twitter}`}
+              target="_blank"
+              rel="noreferrer"
+              className="shadow-none mr-4 hover:text-blue-600"
+            >
+              <FontAwesomeIcon icon={faTwitter} className="mr-1" />
+              <span className="text-black">Twitter</span>
+            </a>
+          }
           <a
             href={pricingLink}
             target="_blank"
