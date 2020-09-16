@@ -1,7 +1,7 @@
 ---
 title: Stormkit
 homepage: https://stormkit.io
-description: Stormkit builds, deploys and scales your JS apps seamlessly. It integrates smoothly your git flow. 
+description: Stormkit builds, deploys and scales your JS apps seamlessly. It integrates smoothly to your git flow. 
 twitter: stormkitio
 pricing: https://www.stormkit.io/pricing
 freeplan: true
