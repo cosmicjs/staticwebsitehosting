@@ -1,14 +1,14 @@
 ---
 title: Stormkit
 homepage: https://stormkit.io
-description: Powerful infrastructure for modern javascript apps. Stormkit integrates perfectly with your git flow. It builds, deploys and scales your javascript apps seamlessly. 
+description: Stormkit builds, deploys and scales your JS apps seamlessly. It integrates smoothly your git flow. 
 twitter: stormkitio
 pricing: https://www.stormkit.io/pricing
 freeplan: true
 autodeployment: true
 ---
 
-Stormkit simplifies deployments of static websites as well as and application management for modern javascript apps.
+Stormkit simplifies deployments of static websites and application management for modern javascript apps.
 	
 It integrates seamlessly with your existing git flow (GitHub, GitLab, BitBucket) and deploys your application whenever you push to your repository.  
 
