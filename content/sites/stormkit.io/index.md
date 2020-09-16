@@ -5,6 +5,7 @@ description: Powerful infrastructure for modern javascript apps. Stormkit integr
 twitter: stormkitio
 pricing: https://www.stormkit.io/pricing
 freeplan: true
+autodeployment: true
 ---
 
 Stormkit simplifies deployments of static websites as well as and application management for modern javascript apps.
