@@ -4,7 +4,6 @@ homepage: https://www.clodui.com
 description: Faster website for better business.
 twitter: clodui
 freeplan: true
-autodeployment: true
 pricing: https://www.clodui.com#pricing
 ---
 
