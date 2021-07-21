@@ -1,11 +1,11 @@
 ---
 title: Deploy Now
-homepage: https://ionos.space
-description: Deploy Now is instant hosting from your GitHub repository.
+homepage: https://deploynow.space
+description: Deploy smarter. Deploy faster. Deploy Now.
 twitter: ionos_com
 freeplan: true
 autodeployment: true
-pricing: https://ionos.space
+pricing: https://deploynow.space
 ---
 
 Deploy Now is instant hosting from your GitHub repository. - Just edit, push, and your changes are live.
