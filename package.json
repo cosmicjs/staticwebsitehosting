@@ -1,7 +1,7 @@
 {
   "name": "staticwebsitehosting",
   "private": true,
-  "description": "staticwebsitehosting, a list of static website hosting providers for Jamstack sites.",
+  "description": "staticwebsitehosting, a list of static website hosting providers for static websites.",
   "version": "1.0.0",
   "author": "@cosmicjs",
   "bugs": {

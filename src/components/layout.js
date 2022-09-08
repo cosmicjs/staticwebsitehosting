@@ -15,7 +15,7 @@ const Layout = ({ title, children }) => {
             </Link>
           </h1>
           <h2 className="text-xl font-thin">
-            A List of Static Website Hosts for Jamstack Sites
+            A list of static website hosting providers
           </h2>
           <ShareButtons className="mt-12 inline-flex" />
         </div>
@@ -55,16 +55,6 @@ const Layout = ({ title, children }) => {
             </li>
             <li className="sm:mr-6 sm:mb-0 mb-2 m-0">
               <a
-                href="https://jamstack.org/"
-                target="_blank"
-                rel="noreferrer"
-                className="shadow-none font-medium hover:text-blue-400"
-              >
-                About Jamstack
-              </a>
-            </li>
-            <li className="sm:mr-6 sm:mb-0 mb-2 m-0">
-              <a
                 href="https://www.cosmicjs.com/"
                 target="_blank"
                 rel="noreferrer"
@@ -92,9 +82,9 @@ const Layout = ({ title, children }) => {
             <b className="font-bold">
               <a
                 className="shadow-none"
-                href="https://www.cosmicjs.com/knowledge-base/jamstack-cms"
+                href="https://www.cosmicjs.com/knowledge-base/static-website-cms"
               >
-                Jamstack CMS
+                static website CMS
               </a>
             </b>{" "}
             for your static websites and apps.
