@@ -40,7 +40,7 @@ npm run build
 
 ## Cosmic
 
-staticwebsitehosting.org is built and maintained by [Cosmic](https://www.cosmicjs.com), a headless CMS to manage content for static websites and apps.
+staticwebsitehosting.org is built and maintained by [Cosmic](https://www.cosmicjs.com), a [headless CMS](https://www.cosmicjs.com/headless-cms) to manage content for static websites and apps.
 
 ## License
 
