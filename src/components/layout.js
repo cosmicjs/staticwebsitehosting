@@ -78,16 +78,15 @@ const Layout = ({ title, children }) => {
                 Cosmic
               </a>
             </b>
-            , the perfect{" "}
+            , your static website {" "}
             <b className="font-bold">
               <a
                 className="shadow-none"
-                href="https://www.cosmicjs.com/knowledge-base/static-website-cms"
+                href="https://www.cosmicjs.com/headless-cms"
               >
-                static website CMS
+                headless CMS
               </a>
-            </b>{" "}
-            for your static websites and apps.
+            </b>.
           </p>
           <small className="font-thin text-sm">
             © Cosmic {new Date().getFullYear()}
