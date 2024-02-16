@@ -1,26 +1,31 @@
 ---
 title: CloudFlare
-homepage: https://workers.cloudflare.com/sites
-description: Build blazing fast websites by seamlessly deploying static assets alongside your APIs and application code.
-twitter: cloudflare
-pricing: https://workers.cloudflare.com/#plans
+homepage: https://pages.cloudflare.com/#pricing
+description: Cloudflare Pages is a JAMstack platform for frontend developers to collaborate and deploy websites.
+twitter: CloudflareDev
+pricing: https://pages.cloudflare.com/#pricing
 freeplan: true
+autodeployment: true
 ---
 
-Workers Sites enables developers to deploy static applications directly to Workers. Workers Sites is perfect for deploying applications built with frontend frameworks like [React](https://reactjs.org) and [Vue](https://vuejs.org/), as well as static site generators like [Hugo](https://gohugo.io/) and [Gatsby](https://www.gatsbyjs.org/).
+Cloudflare Pages is a dynamic platform that streamlines website deployment from a Git repository, tailored for developers focusing on JAMstack sites. It integrates directly with your Git workflow for seamless deployments.
 
-To use Workers Sites, you'll take one of three routes:
+- [Developer Documentation](https://developers.cloudflare.com/pages/)
+- [Developer Discord](https://discord.com/invite/cloudflaredev)
 
-- [Create a new project from scratch](https://developers.cloudflare.com/workers/sites/start-from-scratch)
+## Features of Cloudflare Pages
 
-If you're ready to start a brand new project, starting from scratch with Workers Sites will set up the infrastructure to deploy a simple HTML website to Workers.
+Cloudflare Pages offers a myriad of developer-friendly features, ensuring a smooth deployment process:
 
-- [Deploy a pre-existing static site project](https://developers.cloudflare.com/workers/sites/start-from-existing)
+- **Continuous Deployment**: Automatically builds from Git. 
+- **Instant Cache Purging**: Guarantees the freshest content delivery.
+- **Custom Domains with SSL**: Easily link and secure your custom domain.
+- **Analytics**: Access detailed performance insights.
+- **Security**: Benefit from Cloudflare's extensive security measures.
 
-If you have an existing project or static assets that you want to deploy with Workers, this quick start guide will help you add Wrangler and configure Workers Sites for your project.
+## Limits on Cloudflare Pages
 
-- [Add static assets to a pre-existing worker project](https://developers.cloudflare.com/workers/sites/start-from-worker)
+- **Build Time**: Max 20 minutes per build.
+- **Project Size**: Up to 20,000 files per project.
 
-If you already have an application deployed to Workers, this guide will show you how to use Workers Sites in your existing codebase, allowing you to deploy your entire application as a single Workers project.
-
-_Note: Workers Sites require the latest version of [Wrangler](https://github.com/cloudflare/wrangler) and the Workers [Bundled plan](https://workers.cloudflare.com/sites#plans). As Workers Sites use Workers and Workers KV, their usage goes into account towards your monthly bill
+For up-to-date limits, refer to the [official documentation](https://developers.cloudflare.com/pages/platform/limits).
