@@ -5,7 +5,7 @@ description: Netlify is a static website hosting provider.
 twitter: netlify
 freeplan: true
 autodeployment: true
-cosmicapplink: https://www.cosmicjs.com/apps/simple-vue-blog
+cosmicapplink: https://www.cosmicjs.com/marketplace/templates/simple-astro-blog
 pricing: https://www.netlify.com/pricing
 ---
 
