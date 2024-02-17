@@ -6,7 +6,7 @@ twitter: vercel
 pricing: https://www.vercel.com/pricing
 freeplan: true
 autodeployment: true
-cosmicapplink: https://www.cosmicjs.com/apps/nextjs-static-blog
+cosmicapplink: https://www.cosmicjs.com/marketplace/templates/simple-nextjs-blog
 ---
 
 Vercel is a static website hosting provider.
